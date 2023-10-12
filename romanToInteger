@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class RomanToInteger {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a Roman Numeral: ");
+        String romanNumeral = scanner.nextLine();
+        int intValue = romanToInteger(romanNumeral);
+        System.out.println("Integer Value: " + intValue);
+    }
+
+    public static int romanToInteger(String s) {
+        // Implementation of Roman to Integer conversion here
+        // (Use the code from the previous response for this task)
+        // ...
+        return 0;  // Placeholder value
+    }
+}
